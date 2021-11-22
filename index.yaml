@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   axop:
   - apiVersion: v2
+    appVersion: 0.6.1
+    created: "2021-11-22T14:14:33.886273584-05:00"
+    description: AxonIQ Axon Server Operator
+    digest: 4687c79280ce6db7dd50084626e93c40167db66dbfe91c00e0ee3abe2779a096
+    name: axop
+    type: application
+    urls:
+    - https://croixbleueqc.github.io/helm-charts/axop-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
     appVersion: 0.6.0
-    created: "2021-11-08T10:06:14.784794594-05:00"
+    created: "2021-11-22T14:14:33.886053083-05:00"
     description: AxonIQ Axon Server Operator
     digest: 93277e0a77e5a0ca35a7f8e07d96c0c37e1810c9941074fc0e149ef86858b28e
     name: axop
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://croixbleueqc.github.io/helm-charts/axop-1.0.0.tgz
     version: 1.0.0
-generated: "2021-11-08T10:06:14.784545555-05:00"
+generated: "2021-11-22T14:14:33.885708161-05:00"
