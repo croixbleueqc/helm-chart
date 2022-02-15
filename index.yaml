@@ -42,4 +42,15 @@ entries:
     urls:
     - myop-1.0.0.tgz
     version: 1.0.0
-generated: "2021-12-22T08:55:17.640319358-05:00"
+  ots:
+  - apiVersion: v1
+    appVersion: v0.12.2
+    created: "2022-02-14T15:04:15.253568057-05:00"
+    description: One time secret
+    digest: cd8c516c34d1931a25dfb7e05235a7e6263521c307e6df44026cdf5915e9dd73
+    name: ots
+    type: application
+    urls:
+    - ots-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-02-14T15:04:15.251390666-05:00"
