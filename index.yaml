@@ -45,6 +45,16 @@ entries:
   ots:
   - apiVersion: v1
     appVersion: v0.12.3
+    created: "2022-03-18T12:00:00.000000000-05:00"
+    description: One time secret
+    digest: c7fe8166ec7990d23dd3002825ff83b1162e9d8e9df7a7c9c58e825a9efdb00e
+    name: ots
+    type: application
+    urls:
+    - ots-0.0.4.tgz
+    version: 0.0.4
+  - apiVersion: v1
+    appVersion: v0.12.3
     created: "2022-02-16T10:07:24.303491738-05:00"
     description: One time secret
     digest: c43e121c06666750a78f88d7db3136d4fd8c1d665096dcba70f3b2c59eb345d5
