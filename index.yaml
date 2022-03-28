@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   axop:
   - apiVersion: v2
+    appVersion: 0.6.3
+    created: "2022-03-28T11:27:25.9181915-04:00"
+    description: AxonIQ Axon Server Operator
+    digest: ac3adeae2728c3692406cc6ef56ecd44a76534f068b0c1a641a6eb042184cbdb
+    name: axop
+    type: application
+    urls:
+    - axop-1.0.3.tgz
+    version: 1.0.3
+  - apiVersion: v2
     appVersion: 0.6.2
     created: "2021-12-22T08:55:17.641341494-05:00"
     description: AxonIQ Axon Server Operator
@@ -43,9 +53,13 @@ entries:
     - myop-1.0.0.tgz
     version: 1.0.0
   ots:
-  - apiVersion: v1
+  - apiVersion: v2
     appVersion: v0.12.3
-    created: "2022-03-18T12:00:00.000000000-05:00"
+    created: "2022-03-28T11:27:25.9249952-04:00"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 16.5.2
     description: One time secret
     digest: c7fe8166ec7990d23dd3002825ff83b1162e9d8e9df7a7c9c58e825a9efdb00e
     name: ots
@@ -73,4 +87,4 @@ entries:
     urls:
     - ots-0.0.1.tgz
     version: 0.0.1
-generated: "2022-02-16T10:07:24.300999631-05:00"
+generated: "2022-03-28T11:27:25.9167954-04:00"
