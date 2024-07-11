@@ -64,6 +64,20 @@ entries:
     version: 1.0.0
   ots:
   - apiVersion: v2
+    appVersion: v0.15.0
+    created: "2022-11-02T11:10:21.513424-04:00"
+    dependencies:
+    - name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 19.6.0
+    description: One time secret
+    digest: 762c59921be5ebd89b5563e74105c9e57528669d847226d9ffbdaa6a6e9ac4bd
+    name: ots
+    type: application
+    urls:
+    - ots-0.15.0.tgz
+    version: 0.15.0
+  - apiVersion: v2
     appVersion: v0.12.3
     created: "2022-11-02T11:10:21.513424-04:00"
     dependencies:
